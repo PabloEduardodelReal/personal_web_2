@@ -1,3 +1,6 @@
+body{
+    background-colro: #f2fcf9;
+}
 .contact-form {
     margin: 50px auto;
     max-width: 800px; /* Aumentamos el ancho máximo */
