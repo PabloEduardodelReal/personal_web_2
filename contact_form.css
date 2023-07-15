@@ -42,6 +42,7 @@ body{
     }
 .close_button{
   border-radius: 20px;
+  right:10px;
   font-size: 14px;
   padding: 10px 20px;
   margin: 10 20px; /* Increase the margin value as per your requirement */
