@@ -61,3 +61,83 @@ body {
   background-color: #ffffff;
   color:#000000;
 }
+
+
+body{
+    background-color: #FAFFF5;
+}
+#contenedor_index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0px;
+    background-color: #FAFFF5;
+  }
+  
+  #div1 {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 20px;
+    border: 1px solid black;
+  }
+  
+  #div1a {
+    margin-bottom: 0px;
+    margin-right: 100px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  #div1b {
+    flex: 1;
+    margin-right: 200px;
+    flex-shrink: 1;
+  }
+  
+  #div2 {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-right: 20px;
+  }
+  
+  #div2b {
+    flex: 1;
+    margin-right: 150px;
+    margin-left: 100px;
+    flex-shrink: 1;
+  }
+  
+  #div2a {
+    margin-left: 10px;
+    flex-grow: 1;
+  }
+  
+  #div3 {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 20px;
+    border: 1px solid black;
+  }
+  
+  #div3a {
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-grow: 1;
+  }
+  
+  #div3b {
+    flex: 1;
+    margin-right: 200px;
+    flex-shrink: 1;
+  }
+  .profile_pic{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 0px;
+  }
+  
