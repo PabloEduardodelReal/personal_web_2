@@ -48,7 +48,7 @@ body{
   border-radius: 20px;
   position: absolute;
   top: 60px; /* Aumenta el valor para una mayor separación del margen superior */
-  right: 10px;
+  right: 20px;
   font-size: 14px;
   padding: 10px 20px;
   margin: 0; /* Elimina el margen vertical */
