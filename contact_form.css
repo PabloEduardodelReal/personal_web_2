@@ -61,17 +61,10 @@ color: #000000;
 background-color: blue; /* Cambia el color de fondo al pasar el ratón por encima */
 color: #ffffff; /* Cambia el color del texto al pasar el ratón por encima */
 }
-.links2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .links2 a {
-  margin: 10px;
-  padding: 10px 20px;
-  border: 2px solid #000000;
-  border-radius: 20px;
+  margin-left: 10px;
   text-decoration: none;
   color: #A7C4C4;
   background-color: #ffffff;
