@@ -47,7 +47,7 @@ body{
 .close_button {
   border-radius: 20px;
   position: absolute;
-  top: 30px; /* Aumenta el valor para una mayor separación del margen superior */
+  top: 60px; /* Aumenta el valor para una mayor separación del margen superior */
   right: 10px;
   font-size: 14px;
   padding: 10px 20px;
