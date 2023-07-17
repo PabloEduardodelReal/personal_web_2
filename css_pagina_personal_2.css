@@ -140,6 +140,7 @@ body{
   height:100px;
   border-radius: 50%;
   border: 2px solid black; /* Cambia el color del borde si lo deseas */
+ clip-path: circle(50%);
 }
 
   
