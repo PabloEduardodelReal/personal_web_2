@@ -142,5 +142,13 @@ body{
   border: 2px solid black; /* Cambia el color del borde si lo deseas */
  clip-path: circle(50%);
 }
+.profile_pic_div{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0px;
+}
 
   
