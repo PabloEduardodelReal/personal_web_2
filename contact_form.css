@@ -61,4 +61,26 @@ color: #000000;
 background-color: blue; /* Cambia el color de fondo al pasar el ratón por encima */
 color: #ffffff; /* Cambia el color del texto al pasar el ratón por encima */
 }
+.links2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links2 a {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.links2 a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 
