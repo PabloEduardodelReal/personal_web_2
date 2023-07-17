@@ -44,12 +44,21 @@ body{
       font-family: Arial, sans-serif;
       font-size: 36px;
     }
-.close_button{
+.close_button {
   border-radius: 20px;
-  right:10px;
+  position: absolute;
+  top: 30px; /* Aumenta el valor para una mayor separación del margen superior */
+  right: 10px;
   font-size: 14px;
   padding: 10px 20px;
-  margin: 10 20px; /* Increase the margin value as per your requirement */
+  margin: 0; /* Elimina el margen vertical */
+  margin-top: 20px; /* Agrega el margen superior deseado */
   background-color: #ffffff;
-  color:#000000;
+  color: #000000;
 }
+
+.close_button:hover {
+  background-color: blue; /* Cambia el color de fondo al pasar el ratón por encima */
+  color: #ffffff; /* Cambia el color del texto al pasar el ratón por encima */
+}
+
