@@ -151,4 +151,35 @@ body{
     margin:0px;
 }
 
+.container {
+    display: flex;
+  }
+  
+  .inner-div {
+    flex: 1;
+    position: relative;
+    text-align: center;
+  }
+  
+  .inner-div:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%;
+    width: 1px;
+    background-color: #ff007f;
+  }
+  
+  .text {
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    color: #ff007f;
+    padding: 10px;
+    
+  }
+  
+
   
