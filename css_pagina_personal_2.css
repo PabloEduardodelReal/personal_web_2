@@ -137,7 +137,7 @@ body{
   }
  
 .profile_pic {
-  height:300px;
+  height:85px;
   border-radius: 50%;
   border: 2px solid black; /* Cambia el color del borde si lo deseas */
  clip-path: circle(50%);
